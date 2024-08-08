@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegistrationSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="RegistrationTests(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.testcases.SignUpTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_SignUp_06_SuccessfulRegistration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.SignUpTests -->
+    </classes>
+  </test> <!-- RegistrationTests(failed) -->
+</suite> <!-- Failed suite [RegistrationSuite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="TestCases">
+        <classes>
+            <class name="com.qa.testcases.checkoutTC_002"/>
+            <class name="com.qa.testcases.addtocart"/>
+            <class name="com.qa.testcases.loginTC_001"/>
+            <class name="com.qa.testcases.LumaStoreSearchTest"/>
+            <class name="com.qa.testcases.SignUpTests"/>
+            <class name="com.qa.testcases.whishlist"/>
+        </classes>
+    </test>
+</suite>

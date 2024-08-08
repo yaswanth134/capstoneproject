@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegistrationSuite">
+  <test name="RegistrationTests">
+    <classes>
+      <class name="com.qa.testcases.SignUpTests"/> <!-- Existing test case -->
+         <!-- Test case for invalid email -->
+        <!-- Test case for weak password -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
